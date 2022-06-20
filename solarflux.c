@@ -1,0 +1,125 @@
+#include<stdio.h>
+#include"base1.h" 
+#include"correspondence_table.h"
+#include<stdlib.h>
+#include<windows.h>
+main(){
+	struct item raw_materials[50];
+    struct item intermediate[50];
+    struct item product[20];
+    /*反射镜*/
+	intermediate[0].name="mirror";
+	intermediate[0].amount=0;
+	/*红石接收线圈*/
+	intermediate[1].name="redstone_receiving_coil";
+	intermediate[1].amount=0; 
+	/*机器框架（基础）*/
+	intermediate[2].name="frame_basic";
+	intermediate[2].amount=0;
+	/*铅石能量元件框架*/
+	intermediate[3].name="lead_stone_energy_element_frame";
+	intermediate[3].amount=0;
+	/*光电池I*/
+	intermediate[4].name="solarcell1";
+	intermediate[4].amount=0;
+	/*锡齿轮*/
+	intermediate[5].name="geartin";
+	intermediate[5].amount=0;
+	/*光电池II*/
+	intermediate[6].name="solarcell2";
+	intermediate[6].amount=0; 
+	/*机器框架（硬化）*/
+	intermediate[7].name="frame_hardened";
+	intermediate[7].amount=0;
+	/*琥珀金齿轮*/
+	intermediate[8].name="gearelectrum";
+	intermediate[8].amount=0;
+	/*硬化能量元件框架*/
+	intermediate[9].name="hardened_energy_element_frame";
+	intermediate[9].amount=0;
+	/*琥珀金锭*/
+	intermediate[10].name="ingotelectrum";
+	intermediate[10].amount=0;
+	/*殷钢锭*/
+	intermediate[11].name="ingotinvar";
+	intermediate[11].amount=0;
+	/*光电池III*/
+	intermediate[12].name="solarcell3";
+	intermediate[12].amount=0; 
+	/*机器框架（强化）*/
+	intermediate[13].name="frame_reinforced";
+	intermediate[13].amount=0;
+	/*信素齿轮*/
+	intermediate[14].name="gearsignalum";
+	intermediate[14].amount=0;
+	/*强化玻璃*/
+	intermediate[15].name="glass_hardened";
+	intermediate[15].amount=0;
+	/*信素锭*/
+	intermediate[16].name="ingotsignalum";
+	intermediate[16].amount=0;
+	/*红石能量单元框架*/
+	intermediate[17].name="redstone_energy_element_frame";
+	intermediate[17].amount=0;
+	
+	/*铁锭*/
+	raw_materials[0].name="ingotiron";
+    raw_materials[0].amount=0;
+	/*玻璃*/
+	raw_materials[1].name="glass";
+	raw_materials[1].amount=0;
+	/*木板*/
+	raw_materials[2].name="plankwood";
+	raw_materials[2].amount=0;
+	/*红石*/
+	raw_materials[3].name="redstone";
+	raw_materials[3].amount=0;
+	/*金锭*/
+	raw_materials[4].name="ingotgold";
+	raw_materials[4].amount=0;	
+	/*青金石*/
+	raw_materials[5].name="lapis";
+	raw_materials[5].amount=0;
+	/*锡锭*/
+	raw_materials[6].name="ingottin";
+	raw_materials[6].amount=0;
+	/*铅锭*/
+	raw_materials[7].name="ingotlead";
+	raw_materials[7].amount=0;
+	/*粘土*/
+	raw_materials[8].name="clay";
+	raw_materials[8].amount=0;
+	/*银锭*/
+	raw_materials[9].name="ingotsilver";
+	raw_materials[9].amount=0;
+	/*镍锭*/
+	raw_materials[10].name="ingotnickel";
+	raw_materials[10].amount=0;
+	/*铜锭*/
+    raw_materials[11].name="ingotcopper";
+    raw_materials[11].amount=0;
+	/*钻石*/
+	raw_materials[12].name="diamond";
+	raw_materials[12].amount=0;
+	/*黑曜石*/
+	raw_materials[13].name="obsidian";
+	raw_materials[13].amount=0;
+	
+	
+	/*太阳能板1*/
+	product[0].name="solar1";
+	product[0].amount=0;
+	/*太阳能板2*/
+	product[1].name="solar2";
+	product[1].amount=0;
+	/*太阳能板3*/
+	product[2].name="solar3";
+	product[2].amount=0;
+	/*太阳能板4*/
+	product[3].name="solar4";
+	product[3].amount=0;
+	/*太阳能板5*/
+	product[4].name="solar5";
+	product[4].amount=0;
+
+}
